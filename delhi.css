@@ -1,0 +1,12 @@
+.desmid{
+       
+        background-image: url(images/wood-frame-chinese-style-chinese-architecture-city-water-reflection.jpg);
+        background-size: cover;
+        opacity: -0.8px;
+        filter: contrast(-1000%);
+        filter: brightness(-8.0);
+        
+       
+      
+}
+

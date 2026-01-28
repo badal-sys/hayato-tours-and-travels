@@ -1,0 +1,53 @@
+.ctbg{
+        height: 400px;
+        width: 100%;
+          position: relative;  
+              
+
+}
+
+.ctbg > img {
+  position: absolute;
+                height: 100%;
+                width: 100%;
+                
+              
+}
+
+.ctbg > h2 {
+                font-size: 35px;
+                position: absolute;
+                left: 50%;
+                top:50%;
+                transform: translate(-50%,-50%);
+              z-index: 999;
+              text-align: center;
+            
+
+}
+
+@media(max-width:830px){
+  .cont{
+    height: 1100px;
+  }
+}
+@media (max-width: 768px) {
+  .ctbg {
+    min-height: 200px;
+  }
+  .ctbg> h2 {
+    margin-top: 10px;
+    top: 50;
+    left: 50;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ctbg {
+    min-height: 150px;
+  }
+  .ctbg> h2 {
+    font-size: 1.6rem;
+  }
+}
